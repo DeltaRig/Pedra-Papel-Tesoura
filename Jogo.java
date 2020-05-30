@@ -90,7 +90,7 @@ public class Jogo{
                     if(jogada2 == 0 || jogada2 == 2)
                         vencedor = player1;
                     break;
-                default: return "Resultado não encontrado";
+                default: vencedor = "Resultado não encontrado";
             }
         }
         return vencedor;
