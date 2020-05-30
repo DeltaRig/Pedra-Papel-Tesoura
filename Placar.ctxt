@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Placar
+comment0.text=\r\n\ Faz\ o\ placar\ do\ Jogo\r\n\ \r\n\ @author\ (Daniela\ Pereira\ Rigoli)\ \r\n\ @version\ (29/05/2020)\r\n
+comment1.params=
+comment1.target=Placar()
+comment2.params=
+comment2.target=int\ getJ1()
+comment3.params=
+comment3.target=int\ getJ2()
+comment4.params=j1
+comment4.target=void\ setJ1(int)
+comment5.params=j2
+comment5.target=void\ setJ2(int)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Jogo
+comment0.text=\r\n\ PEDRA\ PAPEL\ TESOURA\ (Lagarto\ e\ Spock)\r\n\ Toda\ partida\ vai\ ter\ o\ player1\ e\ o\ player2;\r\n\ M\u00E9todos\ b\u00E1sicos.\r\n\ E\ alem\ disso,\r\n\ partida\:\ recebe\ as\ jogada\ e\ retorna\ o\ vencedor\ de\ PPT(Pedra-Papel-Tesoura)\r\n\ PPTLS\:\ recebe\ as\ jogada\ e\ retorna\ o\ vencedor\ de\ PPTLS(Pedra-Papel-Tesoura-Lagarto-Spock)\r\n\ \r\n\ @author\ (Daniela\ Pereira\ Rigoli)\ \r\n\ @version\ (29/05/2020)\r\n
+comment1.params=player1\ player2
+comment1.target=Jogo(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getPlayer1()
+comment3.params=
+comment3.target=java.lang.String\ getPlayer2()
+comment4.params=player1
+comment4.target=void\ setPlayer1(java.lang.String)
+comment5.params=player2
+comment5.target=void\ setPlayer2(java.lang.String)
+comment6.params=jogada1\ jogada2
+comment6.target=java.lang.String\ partida(int,\ int)
+comment7.params=jogada1\ jogada2
+comment7.target=java.lang.String\ PPTLS(int,\ int)
+numComments=8
