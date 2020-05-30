@@ -2,8 +2,4 @@
 comment0.target=CopyOfMain
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
-comment2.params=valor
-comment2.target=boolean\ validaTransInt(java.lang.String)
-comment3.params=valor
-comment3.target=int\ transInt(java.lang.String)
-numComments=4
+numComments=2
