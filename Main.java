@@ -33,22 +33,22 @@ public class Main{
         String PPT = "(0) Pedra\n(1) Papel\n(2) Tesoura";
         String PPTLS = "(0) Pedra\n(1) Papel\n(2) Tesoura\n(3) Lagarto\n(4) Spock";
         do{
-            do{
-                System.out.println("O que você desejam fazer?" +
-                    "\n(1) Jogar Pedra-Papel-Tesoura!" +
-                    "\n(2) Ver as regras de Pedra-Papel-Tesoura" +
-                    "\n(3) Jogar Pedra-Papel-Tesoura-Lagarto-Spock!" +
-                    "\n(4) Ver as regras Pedra-Papel-Tesoura-Lagarto-Spock" + 
-                    "\n(5) Ver placar" +
-                    "\n(6) Trocar um dos jogadores" +
-                    "\n(0) Sair");
-                opcao = scan.nextLine();
-                
-                x = true;
-                
-                    x = validaTransInt(opcao);
-                    op = transInt(opcao);
-            }while (x == true);
+        
+            System.out.println("O que você desejam fazer?" +
+                "\n(1) Jogar Pedra-Papel-Tesoura!" +
+                "\n(2) Ver as regras de Pedra-Papel-Tesoura" +
+                "\n(3) Jogar Pedra-Papel-Tesoura-Lagarto-Spock!" +
+                "\n(4) Ver as regras Pedra-Papel-Tesoura-Lagarto-Spock" + 
+                "\n(5) Ver placar" +
+                "\n(6) Trocar um dos jogadores" +
+                "\n(0) Sair");
+            opcao = scan.nextLine();
+            
+            x = true;
+            
+                x = validaTransInt(opcao);
+                op = transInt(opcao);
+        
             
             String jogada1, jogada2;
             int jogadaInt1, jogadaInt2;
