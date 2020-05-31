@@ -76,7 +76,7 @@ public class Main{
                     
                     if(vencedor.equals(player1))
                         placar.setJ1(placar.getJ1() + 1);
-                    else if(vencedor.equals(player1))
+                    else if(vencedor.equals(player2))
                         placar.setJ2(placar.getJ2() + 1);
                     break;
                 case 2:
