@@ -5,7 +5,9 @@ Descrição do desafio: Implementar um programa para automatizar o jogo Pedra-Pa
 
 ## Solução
 
-Para isso, com uma classe Jogo com os atributos player1 e player2 (ambos Strings que correspondem aos nomes dos jogadores). Implementa os métodos de instância básicos. Implementa também um método que receba por parâmetro a opção de jogada do player1 e do player2 (0 para Pedra, 1 para Papel, 2 para Tesoura). O método deverá retornar o nome do player que venceu a rodada.
+Para isso, com uma classe Jogo com os atributos player1 e player2 (ambos Strings que correspondem aos nomes dos jogadores). Implementa os métodos de instância básicos. Implementa também um método que receba por parâmetro a opção de jogada do player1 e do player2 (0 para Pedra, 1 para Papel, 2 para Tesoura). O método retorna o nome do player que venceu a rodada.
+
+Foi implementada também um classe Placar para armazenar e cuidar das pontuações dos jogadores.
 
 Implementa a classe _Main_, contendo um método main, e instancia nela 1 objeto da classe Jogo. Use uma estrutura de repetição para possibilitar a interação dos usuários com o jogo quantas vezes forem desejadas.
 
@@ -22,5 +24,3 @@ o Spock vaporiza pedra
 o Pedra quebra tesoura
 
 O programa comporta essa expansão.
-
-Foi implementada também um classe Placar para armazenar e cuidar das pontuações dos jogadores.
